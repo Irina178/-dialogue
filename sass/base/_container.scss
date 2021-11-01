@@ -1,6 +1,23 @@
 .container {
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 0px 15px;
+  width: 100%;
   margin: 0 auto;
-  width: 320px;
+}
+@media screen and (min-width: 375px) {
+  .container {
+    min-width: 375px;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+  }
+}
+
+@media screen and (min-width: 1170px) {
+  .container {
+    min-width: 1170px;
+    padding: 0px 15px;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+  }
 }
