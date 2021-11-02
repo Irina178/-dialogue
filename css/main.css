@@ -414,8 +414,9 @@ img {
       -ms-flex-align: center;
           align-items: center;
   padding: 24px 0px 22px;
-  -webkit-box-shadow: 0 10px 10px -5px rgba(28, 28, 28, 0.1);
-          box-shadow: 0 10px 10px -5px rgba(28, 28, 28, 0.1);
+  box-shadow: -1px 7px 5px 0px rgba 28, 28, 28, 0.75;
+  -webkit-box-shadow: -1px 7px 5px 0px rgba 28, 28, 28, 0.75;
+  -moz-box-shadow: -1px 7px 5px 0px rgba 28, 28, 28, 0.75;
 }
 .dialogue__svg {
   width: 169px;
