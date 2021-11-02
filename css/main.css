@@ -3,7 +3,6 @@
   padding: 0px 15px;
   width: 320px;
   margin: 0 auto;
-  border: 1px solid red;
 }
 
 @media screen and (min-width: 320px) {
@@ -398,5 +397,113 @@ img {
     font-weight: 900;
     line-height: 1.2;
     color: #23283b;
+  }
+}
+.menu {
+  background-color: #ffffff;
+}
+
+.dialogue {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 24px 0px 22px;
+  -webkit-box-shadow: 0 10px 10px -5px rgba(28, 28, 28, 0.1);
+          box-shadow: 0 10px 10px -5px rgba(28, 28, 28, 0.1);
+}
+.dialogue__svg {
+  width: 169px;
+  height: 58px;
+}
+
+.inventory {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.inventory__list:not(:last-child) {
+  margin-right: 32px;
+}
+.inventory__link {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.7;
+  color: #23283b;
+}
+
+.btn {
+  background-color: #e6514a;
+  border: 1px solid #e6514a;
+  border-radius: 40px;
+  padding: 15px 30px 15px 30px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #ffffff;
+  line-height: 1.7;
+}
+.btn__svg {
+  width: 17px;
+  height: 18px;
+  padding-top: 3px;
+  margin-right: 11px;
+}
+
+@media screen and (min-width: 1170px) {
+  .studies {
+    background-color: #ffffff;
+  }
+
+  .courses {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+
+  .lesson {
+    width: 570px;
+    height: 219px;
+  }
+  .lesson__text {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.5;
+    color: #3035c3;
+  }
+  .lesson__heading {
+    font-size: 56px;
+    font-weight: 800;
+    line-height: 1.6;
+    color: #23283b;
+    margin: 28px 0px 52px 0px;
+  }
+  .lesson__color {
+    font-size: 56px;
+    font-weight: 800;
+    line-height: 1.6;
+    color: #e6514a;
+  }
+  .lesson__link {
+    background-color: #e6514a;
+    border: 1px solid #e6514a;
+    border-radius: 40px;
+    padding: 16px 60px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #ffffff;
+    line-height: 1.7;
+  }
+
+  .note__img {
+    width: 605px;
+    height: 638px;
   }
 }/*# sourceMappingURL=main.css.map */
